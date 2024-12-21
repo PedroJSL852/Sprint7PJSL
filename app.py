@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-DataFrame = pd.read_csv("C:/Users/USUARIO/Desktop/ESCRITORIO/CURSO DE TRIPLETEN/PROYECTO SPRINT 7/Sprint7PJSL-1/vehicles_us.csv")
+DataFrame = pd.read_csv("C:/Users/USUARIO/Desktop/ESCRITORIO/CURSO DE TRIPLETEN/Sprint7PJSL/vehicles_us.csv")
 
 st.header("Proyecto Sprint 7")
 Boton = st.button("Construir un Histograma")
